@@ -139,6 +139,15 @@ define Device/asus_rt-n14u
 endef
 TARGET_DEVICES += asus_rt-n14u
 
+define Device/baicells-eg7035
+  SOC := mt7620a
+  IMAGE_SIZE := 16064k
+  DEVICE_VENDOR := Baicells
+  DEVICE_MODEL := EG7035
+  SUPPORTED_DEVICES += bce-eg7035
+endef
+TARGET_DEVICES += baicells-eg7035
+
 define Device/bdcom_wap2100-sk
   SOC := mt7620a
   IMAGE_SIZE := 15808k
